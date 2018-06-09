@@ -6,10 +6,11 @@
 using System.Drawing;
 using OpenTitlebarButtons.Enums;
 
-namespace OpenTitlebarButtons
+namespace OpenTitlebarButtons.Model
 {
-    public interface ITitlebarButtonRenderer
+    public class TitlebarButton
     {
-        void RenderButton(Graphics g, TitlebarButtonType type, TitlebarButtonState state);
+        public TitlebarButtonState ButtonState { get; set; }
+        public Bitmap Icon { get; set; }
     }
 }

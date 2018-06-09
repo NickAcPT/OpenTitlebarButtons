@@ -3,12 +3,10 @@
 // Licensed under the MIT License. See LICENSE file in the project root for full license information.
 //  
 
-namespace OpenTitlebarButtons
+namespace OpenTitlebarButtons.Enums
 {
-    public enum TitlebarButtonState
+    public enum BasicTitlebarButtonPart
     {
-        Normal =  1,
-        Hot = 2,
-        Pressed = 3
+        RestoreButton = 21,
     }
 }

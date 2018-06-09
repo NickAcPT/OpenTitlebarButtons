@@ -3,14 +3,13 @@
 // Licensed under the MIT License. See LICENSE file in the project root for full license information.
 //  
 
-namespace OpenTitlebarButtons
+namespace OpenTitlebarButtons.Enums
 {
-    public enum TitlebarButtonType
+    public enum TitlebarButtonState
     {
-        Single,
-
-        Left,
-        Middle,
-        Right
+        None = 0,
+        Normal =  1,
+        Hot = 2,
+        Pressed = 3
     }
 }

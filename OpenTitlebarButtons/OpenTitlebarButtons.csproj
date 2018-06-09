@@ -96,12 +96,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\BasicTitlebarButtonPart.cs" />
     <Compile Include="ITitlebarButtonRenderer.cs" />
-    <Compile Include="TitlebarButtonPart.cs" />
-    <Compile Include="TitlebarButtonState.cs" />
-    <Compile Include="TitlebarButtonType.cs" />
-    <Compile Include="Utils\NativeThemeUtils.cs" />
+    <Compile Include="Model\TitlebarButton.cs" />
+    <Compile Include="Native\NativeUnmanagedWindow.cs" />
+    <Compile Include="Native\TITLEBARINFOEX.cs" />
+    <Compile Include="Enums\TitlebarButtonPart.cs" />
+    <Compile Include="Enums\TitlebarButtonState.cs" />
+    <Compile Include="Enums\TitlebarButtonType.cs" />
+    <Compile Include="Utils\NativeThemeUtilsAero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\NativeThemeUtilsBasic.cs" />
+    <Compile Include="Utils\PerPixelAlphaWindow.cs" />
+    <Compile Include="Utils\SafeNativeWindowHandle.cs" />
+    <Compile Include="Utils\TitlebarButtonHosterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\VisualThemeExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
