@@ -98,6 +98,8 @@
   <ItemGroup>
     <Compile Include="Enums\BasicTitlebarButtonPart.cs" />
     <Compile Include="ITitlebarButtonRenderer.cs" />
+    <Compile Include="Model\TitlebarItemBase.cs" />
+    <Compile Include="Model\NativeWindowEventArgs.cs" />
     <Compile Include="Model\TitlebarButton.cs" />
     <Compile Include="Native\NativeUnmanagedWindow.cs" />
     <Compile Include="Native\TITLEBARINFOEX.cs" />

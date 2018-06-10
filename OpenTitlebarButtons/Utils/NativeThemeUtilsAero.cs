@@ -17,25 +17,34 @@ namespace OpenTitlebarButtons.Utils
 
         private const string DwmClassListValue = "DWMWINDOW";
 
+
         [DllImport(Lib.User32, CharSet = CharSet.Auto, SetLastError = false)]
         public static extern IntPtr SendMessage(IntPtr hWnd, uint msg, int wParam, ref Titlebarinfoex lParam);
 
         public static bool GetTitleBarInfoEx(IntPtr hWnd, out Titlebarinfoex pwi)
         {
             var ex = new Titlebarinfoex();
-            ex.cbSize =  (uint)Marshal.SizeOf(ex);
+            ex.cbSize = (uint) Marshal.SizeOf(ex);
             var result = SendMessage(hWnd, WmGettitlebarinfoex, 0, ref ex);
             pwi = ex;
             return result.ToInt32() != 0;
         }
 
+        public static Titlebarinfoex GetTitleBarInfoEx()
+        {
+            var f = new Form {Opacity = 0};
+            f.Show();
+            var pwi = GetTitleBarInfoEx(f.Handle);
+            f.Dispose();
+            return pwi;
+        }
 
         public static Titlebarinfoex GetTitleBarInfoEx(IntPtr hWnd)
         {
             GetTitleBarInfoEx(hWnd, out var pwi);
             return pwi;
         }
-        
+
 
         private static Image Slice(Image original, Point loc, Size size)
         {
