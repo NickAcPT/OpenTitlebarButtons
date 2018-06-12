@@ -24,12 +24,12 @@ namespace OpenTitlebarButtons.Utils
 
         public TitlebarButtonHosterForm(NativeUnmanagedWindow parent)
         {
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             ParentWindow = parent;
             Attach(parent);
             SetBitmap(NativeThemeUtils.GetDwmWindowButton(AeroTitlebarButtonPart.MinimizeButton,
                 TitlebarButtonState.Hot) as Bitmap);
             Show(NativeWindow.FromHandle(parent.Handle));
-            Console.WriteLine("ctor7");
         }
 
         private void Attach(NativeUnmanagedWindow parent)
