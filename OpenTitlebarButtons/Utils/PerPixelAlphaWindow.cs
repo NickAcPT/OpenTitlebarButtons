@@ -134,6 +134,8 @@ namespace OpenTitlebarButtons.Utils
                         Gdi32.SelectObject(memDc, oldBitmap);
                         //Windows.DeleteObject(hBitmap); // The documentation says that we have to use the Windows.DeleteObject... but since there is no such method I use the normal DeleteObject from Win32 GDI and it's working fine without any resource leak.
                         Gdi32.DeleteObject(hBitmap);
+
+                        Size = bitmap.Size;
                     }
                 }
             }

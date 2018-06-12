@@ -31,11 +31,11 @@ namespace OpenTitlebarButtonsTest
             }
             else
                 w.Dispose();*/
-            var frm = new TitlebarButtonHosterForm(new NativeUnmanagedWindow(new IntPtr(0x40A92)));
-            frm.LocationChanged += (s, e) =>
+            var frm = new TitlebarButtonHosterForm(new NativeUnmanagedWindow(new IntPtr(0x120802)));
+            /*frm.LocationChanged += (s, e) =>
             {
-                Console.WriteLine(@"Location changed");
-            };
+                //Console.WriteLine(@"Location changed");
+            };*/
 
         }
 

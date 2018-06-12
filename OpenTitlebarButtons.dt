@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT2H55M59.6474106S" SolutionTotalViewTime="PT2H53M28.2809868S" SolutionTotalDebugTime="PT10M32.4980683S">
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT3H30M8.9863105S" SolutionTotalViewTime="PT3H21M50.860209S" SolutionTotalDebugTime="PT12M13.3513021S">
   <FileVersion>
     <Major>1</Major>
     <Minor>0</Minor>
@@ -7,176 +7,26 @@
   <SolutionFolder>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons</SolutionFolder>
   <SessionTimeList />
   <LastSessionTimeList>
-    <DevTrackerDataItem ViewActiveTime="PT3.3732764S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\4B2D8F4B-C31A-4F0E-8100-7FD2B897456E\7b\5248da16\Component.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName />
-      <CreatedDate>2018-06-10T14:19:53.6006471+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M30.741162S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>Debug Mode</Item>
-      <ItemType>DebugModeItem</ItemType>
-      <ProjectName />
-      <CreatedDate>2018-06-10T13:44:22.5078236+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT12M22.3697491S" EditActiveTime="PT7M6.3471058S">
-      <ModifiedDate>2018-06-10T15:01:23.7032864+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT6M23.882421S" EditActiveTime="PT5M18.6710646S">
+      <ModifiedDate>2018-06-12T21:14:57.8959444+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\FinalizerBase.cs</Item>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\ManagedTitlebarInfoEx.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T13:57:48.1802916+01:00</CreatedDate>
+      <CreatedDate>2018-06-12T20:46:04.0625207+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT7M15.3460535S" EditActiveTime="PT50.4087205S">
-      <ModifiedDate>2018-06-10T15:17:44.3528326+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT5.3551411S" EditActiveTime="PT19.1649495S">
+      <ModifiedDate>2018-06-12T20:56:12.5995929+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\Form1.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\OpenTitlebarButtonsTest.csproj</ProjectName>
-      <CreatedDate>2018-06-10T11:46:08.2796689+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M15.9088617S" EditActiveTime="PT1M23.5422821S">
-      <ModifiedDate>2018-06-10T18:19:13.0712583+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\GlobalHookTrapper.cs</Item>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\TITLEBARINFOEX.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T14:57:07.0097733+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT10.8099533S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\GlobalHookTypes.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T15:00:52.9805288+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M20.1345315S" EditActiveTime="PT3M42.0988367S">
-      <ModifiedDate>2018-06-10T12:01:45.3659846+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\NativeThemeUtilsAero.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T11:31:32.9913314+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3M22.4344046S" EditActiveTime="PT4M3.2262004S">
-      <ModifiedDate>2018-06-10T12:01:45.3479581+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\NativeThemeUtilsBasic.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T11:47:27.9611885+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT11.8655858S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\NativeThemeUtilsGeneral.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T12:01:09.3114273+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT16M18.4071569S" EditActiveTime="PT8M5.5901007S">
-      <ModifiedDate>2018-06-10T18:20:52.2688631+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\NativeUnmanagedWindow.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T13:43:39.6859822+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT14.1704672S" EditActiveTime="PT23.676307S">
-      <ModifiedDate>2018-06-10T11:05:52.5931056+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Model\NativeWindowEventArgs.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T11:05:25.9476864+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M27.8870298S" EditActiveTime="PT27.2710419S">
-      <ModifiedDate>2018-06-10T11:55:20.6601523+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\Program.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\OpenTitlebarButtonsTest.csproj</ProjectName>
-      <CreatedDate>2018-06-10T11:45:42.3577511+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M35.0489458S" EditActiveTime="PT3M58.0354999S">
-      <ModifiedDate>2018-06-10T11:37:56.7048097+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Model\TitlebarButton.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T10:31:22.0500653+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M31.8477039S" EditActiveTime="PT36.113757S">
-      <ModifiedDate>2018-06-10T13:43:13.545509+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\TitlebarButtonHosterForm.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T13:30:27.3624996+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M32.1622079S" EditActiveTime="PT3M51.4744332S">
-      <ModifiedDate>2018-06-10T11:36:07.109792+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Model\TitlebarItemBase.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T10:55:36.7267396+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M19.1379917S" EditActiveTime="PT9M0.8132587S">
-      <ModifiedDate>2018-06-10T23:54:22.9499553+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Manager\TitlebarManager.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
-      <CreatedDate>2018-06-10T18:44:10.7744492+01:00</CreatedDate>
+      <CreatedDate>2018-06-12T20:55:50.2459543+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
   </LastSessionTimeList>
@@ -222,20 +72,20 @@
       <CreatedDate>2018-06-10T14:19:53.6006471+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT52.0194737S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT56.1745933S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\29\86323f02\Control.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName />
       <CreatedDate>2018-06-09T19:36:34.2371555+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT10M32.4990693S" EditActiveTime="PT5M15.3453812S">
+    <DevTrackerDataItem ViewActiveTime="PT12M13.3513021S" EditActiveTime="PT5M15.3453812S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>2</EditedCount>
-      <ViewedCount>3</ViewedCount>
+      <ViewedCount>4</ViewedCount>
       <Item>Debug Mode</Item>
       <ItemType>DebugModeItem</ItemType>
       <ProjectName />
@@ -253,11 +103,21 @@
       <CreatedDate>2018-06-10T13:57:48.1802916+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT19M54.8074882S" EditActiveTime="PT10M18.6875603S">
-      <ModifiedDate>2018-06-10T15:17:44.3528326+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT34.0238997S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\29\b0a95458\Form.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-12T00:46:42.2490566+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT22M27.3562201S" EditActiveTime="PT10M53.5350931S">
+      <ModifiedDate>2018-06-12T00:04:11.6063362+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>3</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>4</ViewedCount>
       <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\Form1.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\OpenTitlebarButtonsTest.csproj</ProjectName>
@@ -346,6 +206,17 @@
       <CreatedDate>2018-06-09T12:48:27.2199363+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M23.882421S" EditActiveTime="PT5M18.6710646S">
+      <ModifiedDate>2018-06-12T21:14:57.8959444+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\ManagedTitlebarInfoEx.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-12T20:46:04.0625207+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT5M50.5449118S" EditActiveTime="PT9M55.6460785S">
       <ModifiedDate>2018-06-08T20:38:33.0690312+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
@@ -379,31 +250,32 @@
       <CreatedDate>2018-06-09T14:14:35.4374872+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT11.8655858S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+    <DevTrackerDataItem ViewActiveTime="PT1M8.6688746S" EditActiveTime="PT1M41.6678652S">
+      <ModifiedDate>2018-06-12T01:01:24.3318088+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\NativeThemeUtilsGeneral.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
       <CreatedDate>2018-06-10T12:01:09.3114273+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT17M41.7243244S" EditActiveTime="PT12M17.5778817S">
-      <ModifiedDate>2018-06-10T18:20:52.2688631+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT21M19.7827919S" EditActiveTime="PT16M45.3187418S">
+      <ModifiedDate>2018-06-12T00:11:16.5478684+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\NativeUnmanagedWindow.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
       <CreatedDate>2018-06-09T19:39:39.5266104+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT39.1060193S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT1M1.7737634S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\4f\b758a651\NativeWindow.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName />
@@ -421,22 +293,22 @@
       <CreatedDate>2018-06-10T11:05:25.9476864+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2M18.9828976S" EditActiveTime="PT17M27.0403253S">
-      <ModifiedDate>2018-06-09T19:41:00.0477567+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT2M40.4786299S" EditActiveTime="PT18M25.5263304S">
+      <ModifiedDate>2018-06-12T00:55:02.6750837+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\PerPixelAlphaWindow.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
       <CreatedDate>2018-06-09T18:32:52.2789736+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT20M8.6306689S" EditActiveTime="PT15M24.6401528S">
-      <ModifiedDate>2018-06-10T11:55:20.6601523+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT20M43.5334878S" EditActiveTime="PT15M51.4738039S">
+      <ModifiedDate>2018-06-11T23:59:05.7095115+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>3</EditedCount>
-      <ViewedCount>3</ViewedCount>
+      <EditedCount>4</EditedCount>
+      <ViewedCount>4</ViewedCount>
       <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\Program.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\OpenTitlebarButtonsTest.csproj</ProjectName>
@@ -495,11 +367,11 @@
       <CreatedDate>2018-06-09T21:22:45.2619119+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3M7.8708884S" EditActiveTime="PT2M55.2548608S">
-      <ModifiedDate>2018-06-10T13:43:13.545509+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT9M34.5266729S" EditActiveTime="PT15M10.618252S">
+      <ModifiedDate>2018-06-12T01:12:42.0998007+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\TitlebarButtonHosterForm.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
@@ -570,11 +442,11 @@
       <CreatedDate>2018-06-09T18:32:01.4039661+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT32.8593646S" EditActiveTime="PT1M6.1458784S">
-      <ModifiedDate>2018-06-09T19:02:00.5790166+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT38.2145057S" EditActiveTime="PT1M25.3108279S">
+      <ModifiedDate>2018-06-12T20:56:12.5995929+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\TITLEBARINFOEX.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
@@ -603,10 +475,20 @@
       <CreatedDate>2018-06-10T18:44:10.7744492+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3.4357265S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT19.1617607S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>0</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\0f\e2f5c9ea\UnsafeNativeMethods.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-12T00:47:33.5023474+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M24.8748235S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\6B46B85E-8C3A-4C1A-9D14-1E4946BDFA2B\ca\8987d819\User32_Gdi.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName />
@@ -644,8 +526,178 @@
       <CreatedDate>2018-06-09T14:45:29.2777915+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M35.7798972S" EditActiveTime="PT8M3.3102527S">
+      <ModifiedDate>2018-06-12T00:06:36.8698851+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Manager\WindowHookManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-11T23:26:09.2056692+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
   </TotalTimeList>
   <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT5.3551411S" EditActiveTime="PT19.1649495S">
+      <ModifiedDate>2018-06-12T20:56:12.5995929+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\TITLEBARINFOEX.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-12T20:55:50.2459543+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M23.882421S" EditActiveTime="PT5M18.6710646S">
+      <ModifiedDate>2018-06-12T21:14:57.8959444+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\ManagedTitlebarInfoEx.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-12T20:46:04.0625207+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT19.1617607S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>0</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\0f\e2f5c9ea\UnsafeNativeMethods.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-12T00:47:33.5023474+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT34.0238997S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\29\b0a95458\Form.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-12T00:46:42.2490566+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT56.8032888S" EditActiveTime="PT1M41.6678652S">
+      <ModifiedDate>2018-06-12T01:01:24.3318088+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\NativeThemeUtilsGeneral.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-12T00:23:38.5200866+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M21.439097S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\6B46B85E-8C3A-4C1A-9D14-1E4946BDFA2B\ca\8987d819\User32_Gdi.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-12T00:20:04.5284325+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.1551196S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\29\86323f02\Control.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-12T00:04:38.486426+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT22.6677441S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\5AB40F17-FBBD-42BC-88C3-6EF7CE6A3719\4f\b758a651\NativeWindow.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-12T00:01:25.7872601+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M40.8522328S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-11T23:51:48.7651908+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M38.0584675S" EditActiveTime="PT4M27.7408601S">
+      <ModifiedDate>2018-06-12T00:11:16.5478684+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Native\NativeUnmanagedWindow.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-11T23:42:40.1866691+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M32.5487319S" EditActiveTime="PT34.8475328S">
+      <ModifiedDate>2018-06-12T00:04:11.6063362+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\OpenTitlebarButtonsTest.csproj</ProjectName>
+      <CreatedDate>2018-06-11T23:42:39.0359325+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT34.9028189S" EditActiveTime="PT26.8336511S">
+      <ModifiedDate>2018-06-11T23:59:05.7095115+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtonsTest\OpenTitlebarButtonsTest.csproj</ProjectName>
+      <CreatedDate>2018-06-11T23:29:17.8171432+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT21.4957323S" EditActiveTime="PT58.4860051S">
+      <ModifiedDate>2018-06-12T00:55:02.6750837+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\PerPixelAlphaWindow.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-11T23:29:02.3551519+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M35.7798972S" EditActiveTime="PT8M3.3102527S">
+      <ModifiedDate>2018-06-12T00:06:36.8698851+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Manager\WindowHookManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-11T23:26:09.2056692+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M26.6577874S" EditActiveTime="PT12M15.3633912S">
+      <ModifiedDate>2018-06-12T01:12:42.0998007+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\Utils\TitlebarButtonHosterForm.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\documents\visual studio 2017\Projects\OpenTitlebarButtons\OpenTitlebarButtons\OpenTitlebarButtons.csproj</ProjectName>
+      <CreatedDate>2018-06-11T23:10:13.6991618+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT4M19.1379917S" EditActiveTime="PT9M0.8132587S">
       <ModifiedDate>2018-06-10T23:54:22.9499553+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>

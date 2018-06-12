@@ -108,6 +108,7 @@
     <Compile Include="Enums\TitlebarButtonPart.cs" />
     <Compile Include="Enums\TitlebarButtonState.cs" />
     <Compile Include="Enums\TitlebarButtonType.cs" />
+    <Compile Include="Utils\ManagedTitlebarInfoEx.cs" />
     <Compile Include="Utils\NativeThemeUtilsAero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\NativeThemeUtilsBasic.cs" />
