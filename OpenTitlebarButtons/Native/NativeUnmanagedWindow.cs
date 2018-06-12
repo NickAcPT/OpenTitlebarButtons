@@ -7,15 +7,27 @@ using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using OpenTitlebarButtons.Manager;
 using Vanara.PInvoke;
 
 namespace OpenTitlebarButtons.Native
 {
-    public class NativeUnmanagedWindow : NativeWindow
+    public class NativeUnmanagedWindow : IDisposable
     {
+        public IntPtr Handle { get; set; }
+        private static WindowHookManager _manager;
+
+        public static WindowHookManager Manager => _manager ?? (_manager = new WindowHookManager());
+
         public NativeUnmanagedWindow(IntPtr hWnd)
         {
+            Handle = hWnd;
             HandleRef = new HandleRef(this, hWnd);
+            Manager.WindowChanged += (s, e) =>
+            {
+                if (e.WindowHandle != Handle) return;
+                OnWindowChanged();
+            };
         }
 
         public HandleRef HandleRef { get; set; }
@@ -30,7 +42,7 @@ namespace OpenTitlebarButtons.Native
             set => User32_Gdi.SetWindowPos(HandleRef, (IntPtr) 0, value.X, value.Y, value.Width, value.Height,
                 User32_Gdi.SetWindowPosFlags.SWP_NOZORDER);
         }
-
+        
         public Point Location
         {
             get => Bounds.Location;
@@ -70,26 +82,21 @@ namespace OpenTitlebarButtons.Native
         public int Right => Location.X + Size.Width;
 
         public int Bottom => Location.X + Size.Width;
-        public event EventHandler<EventArgs> SizeChanged;
 
-        protected override void WndProc(ref Message m)
+        public void Dispose()
         {
-            if (m.Msg == /*WM_SIZE*/ 0x0005)
-            {
-                OnSizeChanged();
-            }
-
-            base.WndProc(ref m);
         }
-
-        protected virtual void OnSizeChanged()
-        {
-            SizeChanged?.Invoke(this, EventArgs.Empty);
-        }
+        
+        public event EventHandler<EventArgs> WindowChanged;
 
         public static explicit operator NativeUnmanagedWindow(Form f)
         {
             return new NativeUnmanagedWindow(f.Handle);
+        }
+
+        protected virtual void OnWindowChanged()
+        {
+            WindowChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }

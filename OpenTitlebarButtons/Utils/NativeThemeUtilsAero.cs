@@ -1,11 +1,9 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Text;
 using System.Windows.Forms;
 using OpenTitlebarButtons.Enums;
-using OpenTitlebarButtons.Native;
-using Vanara.Extensions;
 using Vanara.PInvoke;
 using Vanara.Windows.Forms;
 
@@ -16,46 +14,6 @@ namespace OpenTitlebarButtons.Utils
         private const int WmGettitlebarinfoex = 0x033F;
 
         private const string DwmClassListValue = "DWMWINDOW";
-
-
-        [DllImport(Lib.User32, CharSet = CharSet.Auto, SetLastError = false)]
-        public static extern IntPtr SendMessage(IntPtr hWnd, uint msg, int wParam, ref Titlebarinfoex lParam);
-
-        public static bool GetTitleBarInfoEx(IntPtr hWnd, out Titlebarinfoex pwi)
-        {
-            var ex = new Titlebarinfoex();
-            ex.cbSize = (uint) Marshal.SizeOf(ex);
-            var result = SendMessage(hWnd, WmGettitlebarinfoex, 0, ref ex);
-            pwi = ex;
-            return result.ToInt32() != 0;
-        }
-
-        public static Titlebarinfoex GetTitleBarInfoEx()
-        {
-            var f = new Form {Opacity = 0};
-            f.Show();
-            var pwi = GetTitleBarInfoEx(f.Handle);
-            f.Dispose();
-            return pwi;
-        }
-
-        public static Titlebarinfoex GetTitleBarInfoEx(IntPtr hWnd)
-        {
-            GetTitleBarInfoEx(hWnd, out var pwi);
-            return pwi;
-        }
-
-
-        private static Image Slice(Image original, Point loc, Size size)
-        {
-            var bmp = new Bitmap(size.Width, size.Height);
-            using (var g = Graphics.FromImage(bmp))
-            {
-                g.DrawImage(original, new Rectangle(Point.Empty, size), new Rectangle(loc, size));
-            }
-
-            return bmp;
-        }
 
 
         private static RECT GetThemeRect(UxTheme.SafeThemeHandle hTheme, int iPartId, int iStateId, int iPropId)
@@ -108,13 +66,6 @@ namespace OpenTitlebarButtons.Utils
             }
         }
 
-        public static SafeNativeWindowHandle CreateNativeWindow()
-        {
-            var nWindow = new NativeWindow();
-            nWindow.CreateHandle(new CreateParams());
-            return nWindow;
-        }
-
 
         public static Image GetDwmWindowAtlas()
         {
@@ -145,7 +96,7 @@ namespace OpenTitlebarButtons.Utils
         private static Kernel32.SafeLibraryHandle LoadAeroTheme()
         {
             return Kernel32.LoadLibraryEx(
-                @"C:\Windows\resources\themes\Aero\aero.msstyles",
+                Path.Combine(GetWindowsFolder(), "resources", "themes", "Aero", "aero.msstyles"),
                 dwFlags: Kernel32.LoadLibraryExFlags.LOAD_LIBRARY_AS_DATAFILE);
         }
 
@@ -153,6 +104,24 @@ namespace OpenTitlebarButtons.Utils
         {
             return UxTheme.OpenThemeDataEx(new HandleRef(nWindow, nWindow.Handle), DwmClassListValue,
                 UxTheme.OpenThemeDataOptions.None);
+        }
+
+        public static string GetCurrentThemePath()
+        {
+            var sbFilename = new StringBuilder(0x200);
+            var s = UxTheme.GetCurrentThemeName(sbFilename, 0x200, null, 0, null, 0);
+            return sbFilename.ToString();
+        }
+
+        public static string GetCurrentThemeFolder()
+        {
+            var themePath = GetCurrentThemePath();
+            return Path.GetDirectoryName(themePath);
+        }
+
+        public static string GetThemesFolder()
+        {
+            return Directory.GetParent(GetCurrentThemeFolder()).FullName;
         }
     }
 }

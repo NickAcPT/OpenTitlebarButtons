@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
@@ -20,6 +21,7 @@ namespace OpenTitlebarButtonsTest
     [STAThread]
         static void Main()
         {
+            Console.WriteLine(NativeThemeUtils.GetThemesFolder());
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             /*
@@ -67,10 +69,13 @@ namespace OpenTitlebarButtonsTest
 
             frm.Dispose();
             */
-            Application.Run(new Form1
-            {
-                StartPosition = FormStartPosition.CenterScreen
-            });
+            var th = new Thread(() =>
+                Application.Run(new Form1
+                {
+                    StartPosition = FormStartPosition.CenterScreen
+                }));
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
 
         }
 

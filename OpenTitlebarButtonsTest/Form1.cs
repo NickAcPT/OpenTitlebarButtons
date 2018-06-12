@@ -18,7 +18,7 @@ namespace OpenTitlebarButtonsTest
         public Form1()
         {
             InitializeComponent();
-            var w = new PerPixelAlphaWindow();
+            /*var w = new PerPixelAlphaWindow();
             if (NativeThemeUtils.GetDwmWindowButton(AeroTitlebarButtonPart.RestoreButton,
                 TitlebarButtonState.Hot) is Bitmap bmp)
             {
@@ -30,7 +30,13 @@ namespace OpenTitlebarButtonsTest
                 Show();
             }
             else
-                w.Dispose();
+                w.Dispose();*/
+            var frm = new TitlebarButtonHosterForm(new NativeUnmanagedWindow(new IntPtr(0x40A92)));
+            frm.LocationChanged += (s, e) =>
+            {
+                Console.WriteLine(@"Location changed");
+            };
+
         }
 
         private int _rightOffset = -1;
