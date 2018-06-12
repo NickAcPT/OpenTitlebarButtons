@@ -15,6 +15,9 @@ namespace OpenTitlebarButtons.Utils
 {
     public class TitlebarButtonHosterForm : PerPixelAlphaWindow
     {
+        [DllImport(Lib.User32, SetLastError = false)]
+        static extern IntPtr GetDesktopWindow();
+
         protected override bool ShowWithoutActivation => true;
 
         public NativeUnmanagedWindow ParentWindow { get; }
@@ -25,14 +28,17 @@ namespace OpenTitlebarButtons.Utils
             Attach(parent);
             SetBitmap(NativeThemeUtils.GetDwmWindowButton(AeroTitlebarButtonPart.MinimizeButton,
                 TitlebarButtonState.Hot) as Bitmap);
-            Show();
+            Show(NativeWindow.FromHandle(parent.Handle));
+            Console.WriteLine("ctor7");
         }
 
         private void Attach(NativeUnmanagedWindow parent)
         {
-            NativeThemeUtils.SetWindowLong(Handle, NativeThemeUtils.GWLParameter.GWL_STYLE, parent.Handle.ToInt32());
             parent.WindowChanged += (s, e) => Relocate(this, parent);
             Relocate(this, parent);
+            SetWindowPos(new HandleRef(this, Handle), parent.Handle, 0, 0, 0, 0, SetWindowPosFlags.SWP_NOSIZE | SetWindowPosFlags.SWP_NOMOVE);
+            NativeThemeUtils.SetWindowLong(Handle, NativeThemeUtils.GWLParameter.GWL_HWNDPARENT, parent.Handle.ToInt32());
+        
         }
 
         private void Relocate(TitlebarButtonHosterForm frm, NativeUnmanagedWindow parent)
